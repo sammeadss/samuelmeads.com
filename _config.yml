@@ -1,0 +1,35 @@
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+title: "Samuel Meads"
+description: "Personal portfolio website for experience and projects."
+url: "https://sammeadss.github.io"
+baseurl: "/samuelmeads.com"
+minimal_mistakes_skin: "default"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: true
+
+author:
+  name: "Samuel Meads"
+  bio: "Full Stack Developer"
+  location: "Charlotte, NC"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sammeadss"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/samuelmeads"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:meadss0115@gmail.com"
+
+atom_feed:
+  hide: true
